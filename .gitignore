@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Large / generated artifacts (see README: "Datasets and checkpoints")
+data/*
+!data/README.md
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.pth
+*.parquet
+*.npy
+*.pkl
+
+# Editor / OS
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,5 @@
+Model,Threshold,Accuracy,Precision,Recall,F1,ROC-AUC,PR-AUC
+GNN + Post-GCN Attention,0.4983,0.9807,0.9742,0.6603,0.7871,0.8829,0.7115
+Logistic Regression,0.3104,0.9995,0.9909,0.9992,0.995,0.9993,0.9971
+Random Forest,0.791,1.0,0.9998,0.9993,0.9996,1.0,1.0
+XGBoost,0.7192,1.0,1.0,1.0,1.0,1.0,1.0

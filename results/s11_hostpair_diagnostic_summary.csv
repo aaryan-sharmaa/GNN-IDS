@@ -1,0 +1,5 @@
+source,grouping,groups,pr_auc,roc_auc,f1,accuracy,irreducible_errors,mixed_groups,flows_in_mixed
+ORACLE (diagnostic),directed_pair,282,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+ORACLE (diagnostic),unordered_pair,148,0.9735595399161429,0.9986684880123561,0.9057670842118318,0.9892929816749058,3799.0,35.0,21069.0
+ORACLE (diagnostic),gcn_only_score_block,91,0.945975556566364,0.9964505431943032,0.8888141208137067,0.9878922477692538,4296.0,33.0,41300.0
+ACTUAL frozen GCN-only (validation),model,91,0.8659318000147124,0.9498415701817831,0.8826462424180117,0.9871312856877125,,,
